@@ -1,0 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.heder{
+    color: black;
+}
+.text{
+    font-size: 20px;
+    padding-top: 40px;
+}
+.second-heder{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+    padding-right: 40px;
+}
+
+
+section{
+    display: flex;
+}
