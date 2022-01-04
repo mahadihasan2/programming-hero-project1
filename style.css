@@ -16,6 +16,7 @@ body{
 .half-width{
     width: 50%;
     padding-left: 10%;
+    
 }
 .half-width img{
     width: 80%;
@@ -23,7 +24,7 @@ body{
 }
 
 
-section{
+.top-two-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -42,4 +43,34 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.orange{
+    color: orange;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experiences-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+#border-id{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#exprience-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
